@@ -694,14 +694,16 @@
                     <div class="p-2 bg-emerald-500/20 rounded-lg">
                         <i data-lucide="list-checks" class="w-5 h-5 text-emerald-400"></i>
                     </div>
-                    <h3 class="font-black text-emerald-400 text-xl font-outfit uppercase tracking-tight">Checklist de Superviviencia</h3>
+                    <h3 class="font-black text-emerald-400 text-xl font-outfit uppercase tracking-tight">Checklist de
+                        Superviviencia</h3>
                 </div>
-                
+
                 <div class="flex gap-2 mb-6">
-                    <input type="text" id="new-check-item" placeholder="Añadir nueva tarea..." 
+                    <input type="text" id="new-check-item" placeholder="Añadir nueva tarea..."
                         class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-sm text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all placeholder:text-slate-500"
                         onkeypress="if(event.key === 'Enter') addCheckItem()">
-                    <button onclick="addCheckItem()" class="bg-emerald-500/20 text-emerald-400 border border-emerald-500/50 p-2 rounded-xl hover:bg-emerald-500 hover:text-white transition-all">
+                    <button onclick="addCheckItem()"
+                        class="bg-emerald-500/20 text-emerald-400 border border-emerald-500/50 p-2 rounded-xl hover:bg-emerald-500 hover:text-white transition-all">
                         <i data-lucide="plus" class="w-5 h-5"></i>
                     </button>
                 </div>
@@ -748,19 +750,24 @@
             class="glass-card dark:bg-slate-900 w-full max-w-sm rounded-3xl p-8 border border-white/20 shadow-2xl fade-in">
             <div class="flex justify-between items-center mb-6">
                 <div>
-                    <h3 class="text-xl font-black font-outfit uppercase tracking-tight text-emerald-500" id="modal-title">Pronóstico Dublín</h3>
-                    <p class="text-[10px] text-slate-400 font-medium uppercase tracking-wider" id="modal-subtitle">Resumen del Viaje</p>
+                    <h3 class="text-xl font-black font-outfit uppercase tracking-tight text-emerald-500"
+                        id="modal-title">Pronóstico Dublín</h3>
+                    <p class="text-[10px] text-slate-400 font-medium uppercase tracking-wider" id="modal-subtitle">
+                        Resumen del Viaje</p>
                 </div>
-                <button onclick="toggleWeatherModal()" class="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-xl transition-all">
+                <button onclick="toggleWeatherModal()"
+                    class="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-xl transition-all">
                     <i data-lucide="x" class="w-5 h-5"></i>
                 </button>
             </div>
 
             <!-- VIEW 1: DAYS LIST -->
             <div class="space-y-4" id="forecast-list">
-                <div class="flex items-center justify-between p-4 bg-emerald-50 dark:bg-emerald-500/10 rounded-2xl border border-emerald-100 dark:border-emerald-500/20 cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-500/20 transition-all group" onclick="showHourly('sunday')">
+                <div class="flex items-center justify-between p-4 bg-emerald-50 dark:bg-emerald-500/10 rounded-2xl border border-emerald-100 dark:border-emerald-500/20 cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-500/20 transition-all group"
+                    onclick="showHourly('sunday')">
                     <div class="text-left">
-                        <div class="text-xs font-bold opacity-60 uppercase mb-1 text-emerald-900 dark:text-emerald-200">Dom 25 Ene</div>
+                        <div class="text-xs font-bold opacity-60 uppercase mb-1 text-emerald-900 dark:text-emerald-200">
+                            Dom 25 Ene</div>
                         <div class="text-sm font-black text-slate-800 dark:text-slate-100">Llegada a Dublín</div>
                     </div>
                     <div class="flex items-center gap-4">
@@ -768,13 +775,16 @@
                             <i data-lucide="cloud-rain" class="w-5 h-5 text-blue-500 dark:text-blue-400"></i>
                             <span class="text-lg font-black text-slate-900 dark:text-white">7°C</span>
                         </div>
-                        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform"></i>
+                        <i data-lucide="chevron-right"
+                            class="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform"></i>
                     </div>
                 </div>
 
-                <div class="flex items-center justify-between p-4 bg-blue-50 dark:bg-blue-500/10 rounded-2xl border border-blue-100 dark:border-blue-500/20 cursor-pointer hover:bg-blue-100 dark:hover:bg-blue-500/20 transition-all group" onclick="showHourly('monday')">
+                <div class="flex items-center justify-between p-4 bg-blue-50 dark:bg-blue-500/10 rounded-2xl border border-blue-100 dark:border-blue-500/20 cursor-pointer hover:bg-blue-100 dark:hover:bg-blue-500/20 transition-all group"
+                    onclick="showHourly('monday')">
                     <div class="text-left">
-                        <div class="text-xs font-bold opacity-60 uppercase mb-1 text-blue-900 dark:text-blue-200">Lun 26 Ene</div>
+                        <div class="text-xs font-bold opacity-60 uppercase mb-1 text-blue-900 dark:text-blue-200">Lun 26
+                            Ene</div>
                         <div class="text-sm font-black text-slate-800 dark:text-slate-100">Giant's Causeway</div>
                     </div>
                     <div class="flex items-center gap-4">
@@ -782,13 +792,16 @@
                             <i data-lucide="wind" class="w-5 h-5 text-slate-500 dark:text-slate-400"></i>
                             <span class="text-lg font-black text-slate-900 dark:text-white">5°C</span>
                         </div>
-                        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform"></i>
+                        <i data-lucide="chevron-right"
+                            class="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform"></i>
                     </div>
                 </div>
 
-                <div class="flex items-center justify-between p-4 bg-amber-50 dark:bg-amber-500/10 rounded-2xl border border-amber-100 dark:border-amber-500/20 cursor-pointer hover:bg-amber-100 dark:hover:bg-amber-500/20 transition-all group" onclick="showHourly('tuesday')">
+                <div class="flex items-center justify-between p-4 bg-amber-50 dark:bg-amber-500/10 rounded-2xl border border-amber-100 dark:border-amber-500/20 cursor-pointer hover:bg-amber-100 dark:hover:bg-amber-500/20 transition-all group"
+                    onclick="showHourly('tuesday')">
                     <div class="text-left">
-                        <div class="text-xs font-bold opacity-60 uppercase mb-1 text-amber-900 dark:text-amber-200">Mar 27 Ene</div>
+                        <div class="text-xs font-bold opacity-60 uppercase mb-1 text-amber-900 dark:text-amber-200">Mar
+                            27 Ene</div>
                         <div class="text-sm font-black text-slate-800 dark:text-slate-100">Dublín Centro</div>
                     </div>
                     <div class="flex items-center gap-4">
@@ -796,13 +809,16 @@
                             <i data-lucide="sun" class="w-5 h-5 text-amber-500 dark:text-yellow-400"></i>
                             <span class="text-lg font-black text-slate-900 dark:text-white">9°C</span>
                         </div>
-                        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform"></i>
+                        <i data-lucide="chevron-right"
+                            class="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform"></i>
                     </div>
                 </div>
 
-                <div class="flex items-center justify-between p-4 bg-emerald-50 dark:bg-emerald-500/10 rounded-2xl border border-emerald-100 dark:border-emerald-500/20 cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-500/20 transition-all group" onclick="showHourly('wednesday')">
+                <div class="flex items-center justify-between p-4 bg-emerald-50 dark:bg-emerald-500/10 rounded-2xl border border-emerald-100 dark:border-emerald-500/20 cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-500/20 transition-all group"
+                    onclick="showHourly('wednesday')">
                     <div class="text-left">
-                        <div class="text-xs font-bold opacity-60 uppercase mb-1 text-emerald-900 dark:text-emerald-200">Mié 28 Ene</div>
+                        <div class="text-xs font-bold opacity-60 uppercase mb-1 text-emerald-900 dark:text-emerald-200">
+                            Mié 28 Ene</div>
                         <div class="text-sm font-black text-slate-800 dark:text-slate-100">Regreso</div>
                     </div>
                     <div class="flex items-center gap-4">
@@ -810,20 +826,22 @@
                             <i data-lucide="cloud-sun" class="w-5 h-5 text-emerald-500 dark:text-emerald-400"></i>
                             <span class="text-lg font-black text-slate-900 dark:text-white">10°C</span>
                         </div>
-                        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform"></i>
+                        <i data-lucide="chevron-right"
+                            class="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform"></i>
                     </div>
                 </div>
             </div>
 
             <!-- VIEW 2: HOURLY DETAILS (Hidden by default) -->
             <div id="forecast-details" class="hidden">
-                 <button onclick="backToDays()" class="mb-4 flex items-center gap-2 text-xs font-bold text-slate-500 hover:text-emerald-500 transition-colors">
+                <button onclick="backToDays()"
+                    class="mb-4 flex items-center gap-2 text-xs font-bold text-slate-500 hover:text-emerald-500 transition-colors">
                     <i data-lucide="arrow-left" class="w-3 h-3"></i> VOLVER A DÍAS
-                 </button>
-                 
-                 <div class="space-y-3" id="hourly-container">
+                </button>
+
+                <div class="space-y-3" id="hourly-container">
                     <!-- Hourly items injected via JS -->
-                 </div>
+                </div>
             </div>
             <p class="text-[10px] text-center opacity-40 mt-6 font-bold uppercase tracking-widest italic">Pronóstico
                 estimado para las fechas del viaje</p>
@@ -1037,7 +1055,7 @@
             }
         };
 
-        window.showHourly = function(dayKey) {
+        window.showHourly = function (dayKey) {
             const data = hourlyData[dayKey];
             const listDiv = document.getElementById('forecast-list');
             const detailsDiv = document.getElementById('forecast-details');
@@ -1068,11 +1086,11 @@
             // Switch Views
             listDiv.classList.add('hidden');
             detailsDiv.classList.remove('hidden');
-            
+
             lucide.createIcons();
         }
 
-        window.backToDays = function() {
+        window.backToDays = function () {
             document.getElementById('forecast-list').classList.remove('hidden');
             document.getElementById('forecast-details').classList.add('hidden');
             document.getElementById('modal-title').innerText = "Pronóstico Dublín";
@@ -1103,11 +1121,11 @@
         function renderChecklist() {
             const list = document.getElementById('checklist');
             list.innerHTML = '';
-            
+
             checklistData.forEach((item, index) => {
                 const li = document.createElement('li');
                 li.className = 'flex items-center justify-between gap-3 group';
-                
+
                 li.innerHTML = `
                     <div class="flex items-center gap-3 flex-1 cursor-pointer select-none" onclick="toggleCheck(${index})">
                         <div class="w-5 h-5 rounded border-2 flex items-center justify-center transition-all ${item.done ? 'bg-emerald-500/20 border-emerald-500' : 'border-emerald-500/30 group-hover:border-emerald-500'}">
@@ -1125,12 +1143,12 @@
             localStorage.setItem('checklistData', JSON.stringify(checklistData));
         }
 
-        window.toggleCheck = function(index) {
+        window.toggleCheck = function (index) {
             checklistData[index].done = !checklistData[index].done;
             renderChecklist();
         }
 
-        window.addCheckItem = function() {
+        window.addCheckItem = function () {
             const input = document.getElementById('new-check-item');
             const text = input.value.trim();
             if (text) {
@@ -1139,10 +1157,10 @@
                 renderChecklist();
             }
         }
-        
-        window.deleteCheckItem = function(index) {
-             checklistData.splice(index, 1);
-             renderChecklist();
+
+        window.deleteCheckItem = function (index) {
+            checklistData.splice(index, 1);
+            renderChecklist();
         }
 
         // Initialize
@@ -1197,8 +1215,13 @@
         // --- PWA Registration ---
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js')
-                    .then(reg => console.log('SW Registered'))
+                // Add timestamp to force SW update check
+                navigator.serviceWorker.register('/sw.js?v=' + new Date().getTime())
+                    .then(reg => {
+                        console.log('SW Registered');
+                        // Force update check
+                        reg.update();
+                    })
                     .catch(err => console.log('SW Error', err));
             });
         }
