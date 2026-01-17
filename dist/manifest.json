@@ -2,16 +2,45 @@
     "name": "Dublin Travel Master Plan",
     "short_name": "Dublin Plan",
     "description": "Tu centro de mando operacional para el viaje a Dublín 2026.",
-    "start_url": "/",
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
     "display": "standalone",
-    "background_color": "#0f172a",
-    "theme_color": "#10b981",
+    "orientation": "portrait",
+    "background_color": "#020617",
+    "theme_color": "#020617",
+    "categories": [
+        "travel",
+        "productivity",
+        "lifestyle"
+    ],
     "icons": [
         {
             "src": "/icon.png",
-            "sizes": "1024x1024",
+            "sizes": "192x192 512x512 1024x1024",
             "type": "image/png",
             "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Checklist",
+            "url": "/?section=checklist",
+            "icons": [
+                {
+                    "src": "/icon.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Itinerario",
+            "url": "/?section=itinerary",
+            "icons": [
+                {
+                    "src": "/icon.png",
+                    "sizes": "192x192"
+                }
+            ]
         }
     ]
 }
